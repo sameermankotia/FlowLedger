@@ -1,6 +1,6 @@
 # Sample report output
 
-Generated with `python -m src.reports --format md`. Figures come from the synthetic extracts in `data/`.
+Generated with `python -m src.reports --format md`. Figures come from the  extracts in `data/`.
 
 ### `overdue_invoices` -- Overdue invoices (worst first)
 
