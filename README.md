@@ -8,7 +8,6 @@
 &nbsp;·&nbsp;
 [Sample SQL output](docs/sample_reports.md)
 
-[![tests](https://github.com/sameermankotia/FlowLedger/actions/workflows/tests.yml/badge.svg)](https://github.com/sameermankotia/FlowLedger/actions/workflows/tests.yml)
 
 A Python and PostgreSQL ETL project that simulates integrating customer,
 project and invoice data across two enterprise business systems — a CRM that
