@@ -7,6 +7,7 @@ not a live query.
 
     python scripts/build_site.py              # writes docs/index.html
     python scripts/build_site.py --out site   # somewhere else
+    python scripts/build_site.py --built-at "2026-06-27 18:09"
 
 The charts are the Altair objects from src/dashboard.py, serialised to
 Vega-Lite and embedded, so the page and the dashboard cannot drift apart.
@@ -111,7 +112,7 @@ def chart_div(slot: str, chart) -> str:
     return f'<div class="chart" id="{slot}"></div>'
 
 
-def build(out_dir: Path) -> Path:
+def build(out_dir: Path, built_at: datetime | None = None) -> Path:
     engine = make_engine()
     theme.register()
 
@@ -178,7 +179,7 @@ def build(out_dir: Path) -> Path:
         for label, value, note, tone in tiles
     )
 
-    built = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    built = (built_at or datetime.now(timezone.utc)).strftime("%Y-%m-%d %H:%M UTC")
     page = PAGE.format(
         repo=REPO_URL,
         built=built,
@@ -451,8 +452,19 @@ def main(argv: list[str] | None = None) -> int:
         "--out", type=Path, default=ROOT / "docs",
         help="output directory (default: docs/, which GitHub Pages serves)",
     )
+    parser.add_argument(
+        "--built-at",
+        type=lambda v: datetime.strptime(v, "%Y-%m-%d %H:%M").replace(
+            tzinfo=timezone.utc
+        ),
+        default=None,
+        help=(
+            "timestamp to print as the snapshot date, 'YYYY-MM-DD HH:MM' in UTC "
+            "(default: now)"
+        ),
+    )
     args = parser.parse_args(argv)
-    index = build(args.out)
+    index = build(args.out, built_at=args.built_at)
     size = index.stat().st_size
     print(f"wrote {index} ({size / 1024:.0f} KB)")
     return 0

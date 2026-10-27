@@ -113,6 +113,23 @@ class TestPageStructure:
         assert "github.com/sameermankotia/FlowLedger" in html
 
 
+class TestSnapshotTimestamp:
+    def test_it_stamps_the_build_time(self, built):
+        html, _ = built
+        assert re.search(r"built \d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC", html)
+
+    def test_built_at_overrides_the_timestamp(self, request, tmp_path):
+        """The published snapshot date is an explicit parameter, not the clock."""
+        from datetime import datetime, timezone
+
+        request.getfixturevalue("built")  # ensure the database is loaded
+        from scripts.build_site import build
+
+        stamp = datetime(2026, 6, 27, 18, 9, tzinfo=timezone.utc)
+        html = build(tmp_path / "dated", built_at=stamp).read_text()
+        assert "built 2026-06-27 18:09 UTC" in html
+
+
 class TestNoSecretsLeak:
     def test_the_page_contains_no_database_credentials(self, built):
         html, _ = built
