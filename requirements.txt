@@ -1,0 +1,12 @@
+pandas==2.3.3
+SQLAlchemy==2.0.44
+psycopg[binary]==3.2.12
+python-dotenv==1.1.1
+tabulate==0.9.0
+
+# Dashboard (optional: the pipeline and CLI reports do not need these)
+streamlit==1.52.1
+altair==6.3.0
+
+# Tests
+pytest==8.4.2

@@ -1,0 +1,25 @@
+Deliberately bad records planted in the extracts
+================================================
+customers.csv
+  - CUST-0007 appears twice with conflicting names   -> duplicate_key
+  - one row has a blank customer_id                  -> missing_required
+  - one row has a blank customer_name                -> missing_required
+  - one row has created_date '2024-13-45'            -> invalid_date
+projects.csv
+  - PRJ-1004 appears twice                           -> duplicate_key
+  - one project references CUST-9999 (nonexistent)   -> orphan_customer
+  - one project has budget_amount -45000             -> negative_amount
+  - one project has end_date before start_date       -> date_order
+  - one project has status 'Archived'                -> invalid_status
+invoices.csv
+  - INV-200031 appears twice (identical)             -> duplicate_key
+  - INV-200077 appears twice with different amounts  -> duplicate_key
+  - one invoice has a blank customer_id              -> missing_required
+  - one invoice references CUST-9001 (nonexistent)   -> orphan_customer
+  - one invoice has amount -1250.00                  -> negative_amount
+  - one invoice has amount 'N/A'                     -> non_numeric_amount
+  - one invoice has invoice_date '31/02/2024'        -> invalid_date
+  - one invoice has due_date before invoice_date      -> date_order
+  - one invoice has amount_paid greater than amount  -> overpaid
+  - one invoice has status 'Pending'                 -> invalid_status
+  - one invoice references PRJ-9999 (nonexistent)    -> orphan_project

@@ -1,0 +1,91 @@
+project_id,customer_id,project_name,project_manager,status,start_date,end_date,budget_amount,labor_cost
+PRJ-1001,cust-0007,Fairmont Relay Retrofit,Kofi Petrov,Active,2024-12-20,,658992.72,"$245,089.10"
+PRJ-1002,CUST-0037,Redstone Control House Build,Linus Lovelace,COMPLETED,11/11/2024,27-Jul-2025,"391,248.93",334309.56
+PRJ-1003,CUST-0051,Ironwood Load Flow Analysis,Ines Ibrahim,Active,02/23/2025,,231294.48,201784.85
+PRJ-1004,  CUST-0054 ,Stonebridge Fiber Backbone,Tariq Petrov,COMPLETED,2025-09-28,2026/04/23,361203.03,195307.40
+PRJ-1005,cust-0046,Fairmont SCADA Rollout,Ines Lindqvist,ACTIVE,2026/06/06,,942327.78,358164.50
+PRJ-1006,CUST-0014,Silverton Load Flow Analysis,Kofi Schmidt,completed,08/25/2024,2025-05-15,202202.20,"185,834.85"
+PRJ-1007,CUST-0015,Ironwood Relay Retrofit,Priya Ibrahim,ACTIVE,01/12/2025,,1365515.38,937067.88
+PRJ-1008,CUST-0025,Cascade Grid Hardening,Lucia Fontaine,Active,2025/06/12,,808864.03,983945.76
+PRJ-1009,CUST-0011,Blue Ridge Metering Rollout,Hank Nakamura,Completed,2024/11/05,2025/10/20,588602.94,469665.45
+  PRJ-1010 ,CUST-0043,Fairmont Grid Hardening,Tariq Okafor,active,2024-04-28,,1024768.26,"735,626.23"
+PRJ-1011,CUST-0050,Blue Ridge Breaker Replacement,Mei Haddad,Completed,10/02/2025,2027/01/29,992903.30,840131.73
+PRJ-1012,  cust-0041 ,Riverbend Arc Flash Assessment,Linus Petrov,COMPLETED,2025-09-10,2026-05-15,"$187,898.72",167232.97
+PRJ-1013,CUST-0038,Ironwood Grid Hardening,Omar Fontaine,Cancelled,2025-12-03,2027-04-28,1242685.40,849779.54
+PRJ-1014,CUST-0017,Birchwood Substation Upgrade,Olu Petrov,active,05/21/2026,,"308,499.68","151,330.89"
+PRJ-1015,  CUST-0028 ,Harbor Substation Upgrade,Linus Okafor,ACTIVE,04/02/2024,,385560.59,"148,411.21"
+PRJ-1016,CUST-0057,Stonebridge Fiber Backbone,Ines Lovelace,active,12/15/2025,,630434.49,"$375,178.16"
+  PRJ-1017 ,cust-0012,Fairmont SCADA Rollout,Grace Okafor,active,04/10/2026,,362808.87,329982.57
+PRJ-1018,CUST-0043,Summit Relay Retrofit,Lucia Hopper,COMPLETED,2025/01/08,2026/06/18,"1,345,098.16",794446.24
+PRJ-1019,CUST-0012,Granite Metering Rollout,Olu Kowalski,Active,2024-03-02,,1085915.82,406505.36
+PRJ-1020,CUST-0013,Ironwood Metering Rollout,Hank Haddad,COMPLETED,2025/01/23,13-Mar-2026,"1,090,717.12",909210.28
+PRJ-1021,  cust-0038 ,Blue Ridge Arc Flash Assessment,Omar Lindqvist,Active,2024-04-04,,524404.46,472041.35
+PRJ-1022,CUST-0003,Westfield Control House Build,Ada Lovelace,completed,02/27/2024,13-Jun-2024,"763,908.32","563,682.06"
+PRJ-1023,CUST-0037,Northline Substation Upgrade,Noor Fontaine,active,03/14/2024,,272073.43,"$138,667.80"
+PRJ-1024,cust-0038,Copperline Breaker Replacement,Dana Ibrahim,completed,2024-03-06,2025-08-08,172363.37,"70,562.70"
+PRJ-1025,CUST-0012,Westfield Arc Flash Assessment,Ines Petrov,Completed,2025/01/31,2026-04-29,869094.50,505268.14
+PRJ-1026,CUST-0016,Harbor Metering Rollout,Sven Haddad,active,04-Mar-2024,,"684,169.97",546552.70
+  PRJ-1027 ,CUST-0050,Harbor Fiber Backbone,Dana Nakamura,Completed,2024/09/30,04/27/2025,1003826.70,471192.93
+PRJ-1028,CUST-0029,Fairmont Relay Retrofit,Priya Alvarez,Completed,2025/11/24,08/08/2026,"$48,682.38",42967.45
+PRJ-1029,CUST-0054,Granite Arc Flash Assessment,Priya Lindqvist,COMPLETED,2026/03/29,21-Jun-2026,"$870,420.14","615,550.08"
+PRJ-1030,CUST-0024,Northline Substation Upgrade,Grace Schmidt,completed,2024-07-06,2025/02/08,760326.44,"688,619.25"
+PRJ-1031,  CUST-0001 ,Cascade Substation Upgrade,Kofi Alvarez,active,2025-06-28,,817052.92,"$747,061.97"
+PRJ-1032,CUST-0054,Fairmont Feeder Automation,Olu Ibrahim,completed,20-Aug-2025,2026/04/23,"$1,311,884.22","$1,031,247.92"
+PRJ-1033,CUST-0052,Granite Arc Flash Assessment,Lucia Petrov,Completed,01/29/2025,2025-03-24,"657,238.73",562730.69
+PRJ-1034,  CUST-0019 ,Lakeshore Fiber Backbone,Dana Lindqvist,ACTIVE,08/07/2025,,"971,953.85",387437.42
+PRJ-1035,CUST-0022,Ironwood Breaker Replacement,Grace Haddad,Completed,2025-11-13,08/24/2026,130901.44,53806.31
+PRJ-1036,CUST-0018,Redstone Load Flow Analysis,Olu Fontaine,On Hold,2026/05/05,15-Jun-2027,"$523,411.51",292312.21
+PRJ-1037,CUST-0019,Riverbend Fiber Backbone,Grace Petrov,completed,2025/06/14,2026/03/05,66247.38,54417.19
+PRJ-1038,  CUST-0051 ,Oakhurst Feeder Automation,Ada Ibrahim,active,2025-07-22,,1094505.73,939171.82
+  PRJ-1039 ,cust-0049,Clearwater Substation Upgrade,Grace Kowalski,Completed,2025-06-20,2026/10/04,1399801.69,1094178.58
+PRJ-1040,CUST-0034,Northline Load Flow Analysis,Kofi Okafor,Completed,22-Sep-2024,07/27/2025,86815.09,32511.85
+PRJ-1041,  CUST-0048 ,Fairmont Breaker Replacement,Omar Schmidt,Completed,13-Sep-2024,2026/02/22,"$409,675.11",279853.06
+PRJ-1042,CUST-0034,Ironwood Grid Hardening,Noor Lovelace,Completed,2026-05-19,01/17/2027,"$139,566.21",67471.53
+PRJ-1043,CUST-0049,Fairmont Control House Build,Tariq Nakamura,ACTIVE,22-Jul-2025,,488011.71,"240,367.21"
+  PRJ-1044 ,  CUST-0017 ,Oakhurst Arc Flash Assessment,Linus Petrov,Active,01/27/2026,,636153.63,"575,402.08"
+PRJ-1045,CUST-0033,Harbor Load Flow Analysis,Omar Nakamura,Active,06/09/2026,,1248425.65,1448051.28
+PRJ-1046,CUST-0038,Timberlake Control House Build,Kofi Petrov,ACTIVE,03/03/2025,,"1,013,086.03","$832,814.44"
+PRJ-1047,CUST-0026,Harbor Grid Hardening,Omar Lindqvist,active,2026-01-11,,1115487.64,"1,182,755.45"
+  PRJ-1048 ,CUST-0002,Cascade Arc Flash Assessment,Ines Okafor,Active,01-Jul-2024,,785287.02,666889.55
+PRJ-1049,CUST-0003,Northline Grid Hardening,Rafael Hopper,Completed,17-Dec-2025,16-Apr-2026,"637,249.22","$301,193.80"
+PRJ-1050,CUST-0020,Harbor Relay Retrofit,Noor Alvarez,Active,2026-03-12,,188561.05,114939.83
+PRJ-1051,CUST-0053,Timberlake Protection Study,Mei Haddad,on hold,04/29/2025,11-May-2026,151868.16,95651.26
+PRJ-1052,  CUST-0032 ,Granite Relay Retrofit,Sven Nakamura,active,2024-07-15,,199398.60,92801.09
+PRJ-1053,cust-0047,Riverbend Feeder Automation,Linus Hopper,Active,2024-12-29,,184580.52,"103,771.96"
+PRJ-1054,CUST-0043,Westfield SCADA Rollout,Sven Alvarez,Active,03/27/2026,,1090033.23,"762,001.63"
+PRJ-1055,CUST-0035,Harbor Substation Upgrade,Ines Fontaine,Completed,03/05/2026,2027-03-19,"$689,164.74","$833,103.70"
+  PRJ-1056 ,CUST-0058,Redstone Relay Retrofit,Omar Schmidt,ACTIVE,07/25/2026,,"386,459.97","$333,737.21"
+PRJ-1057,CUST-0027,Copperline Relay Retrofit,Linus Haddad,Active,2025-12-14,,157387.85,102385.63
+PRJ-1058,CUST-0036,Fairmont Feeder Automation,Priya Lindqvist,ACTIVE,25-Apr-2024,,755320.19,"$541,164.34"
+PRJ-1059,  CUST-0025 ,Northline Feeder Automation,Kofi Ibrahim,completed,2026/05/05,01/26/2027,1140464.43,"$590,023.11"
+PRJ-1060,CUST-0021,Clearwater Breaker Replacement,Grace Lindqvist,completed,02/08/2024,01/17/2025,1199299.60,737489.22
+PRJ-1061,  CUST-0020 ,Summit Metering Rollout,Priya Haddad,ACTIVE,25-Jan-2025,,"$831,880.89",439896.15
+PRJ-1062,CUST-0001,Summit Fiber Backbone,Ada Nakamura,active,2025/07/22,,339913.79,200141.08
+PRJ-1063,CUST-0060,Fairmont Control House Build,Linus Schmidt,ACTIVE,10/30/2025,,"$1,101,859.14",793752.71
+PRJ-1064,CUST-0041,Cascade Breaker Replacement,Grace Hopper,Active,2025-09-01,,407694.19,200543.37
+PRJ-1065,  CUST-0035 ,Fairmont Relay Retrofit,Sven Haddad,COMPLETED,2025-04-13,04/26/2026,1004732.65,"610,811.26"
+PRJ-1066,CUST-0048,Oakhurst Fiber Backbone,Linus Kowalski,ACTIVE,2025/05/29,,"$1,035,205.33","$636,264.85"
+  PRJ-1067 ,CUST-0024,Ironwood Metering Rollout,Grace Lindqvist,completed,2025/11/06,08/27/2026,1024507.60,862797.27
+PRJ-1068,CUST-0054,Fairmont Substation Upgrade,Ada Hopper,COMPLETED,02/21/2024,2024-09-24,1222722.33,"595,992.28"
+PRJ-1069,cust-0057,Lakeshore Control House Build,Tariq Petrov,Completed,2026-07-27,10/02/2027,"310,018.91",115192.76
+PRJ-1070,CUST-0015,Birchwood Control House Build,Noor Lindqvist,Completed,2024-12-10,2026/01/03,1135084.87,692795.26
+  PRJ-1071 ,CUST-0006,Northline Metering Rollout,Linus Okafor,COMPLETED,05-Sep-2025,20-Dec-2026,94997.84,86037.00
+PRJ-1072,CUST-0050,Meridian Arc Flash Assessment,Olu Fontaine,Completed,2025-08-14,2025/11/28,308275.92,129466.07
+PRJ-1073,cust-0018,Fairmont Load Flow Analysis,Noor Haddad,Completed,12/22/2025,2026-10-17,75075.98,"35,589.55"
+PRJ-1074,  CUST-0001 ,Stonebridge Control House Build,Ada Okafor,completed,2026-07-02,2027-03-14,1182987.05,828761.57
+PRJ-1075,CUST-0034,Northline Feeder Automation,Grace Ibrahim,ACTIVE,2024-03-01,,"188,109.57","132,567.85"
+PRJ-1076,CUST-0038,Northline Protection Study,Linus Haddad,ACTIVE,08-Feb-2025,,"$1,273,675.80",1539918.38
+PRJ-1077,cust-0049,Ironwood Metering Rollout,Olu Hopper,ACTIVE,2024/03/29,,301473.42,146638.99
+PRJ-1078,CUST-0025,Timberlake Arc Flash Assessment,Tariq Lovelace,active,11-Apr-2026,,"$1,199,930.20",484986.16
+PRJ-1079,CUST-0034,Copperline Substation Upgrade,Grace Kowalski,ACTIVE,2024/10/10,,524826.04,380905.18
+PRJ-1080,CUST-0008,Meridian Breaker Replacement,Dana Alvarez,Completed,04-Oct-2024,16-Mar-2026,"1,377,513.63",816362.72
+PRJ-1081,CUST-0006,Meridian Relay Retrofit,Ines Schmidt,completed,06/03/2024,2025/06/04,"$80,140.94","59,003.87"
+  PRJ-1082 ,CUST-0045,Westfield Relay Retrofit,Mei Nakamura,active,2026-01-18,,1138728.85,924472.31
+PRJ-1083,CUST-0046,Timberlake Feeder Automation,Omar Fontaine,completed,12-Jul-2024,17-Nov-2024,175984.83,"111,657.26"
+PRJ-1084,CUST-0059,Blue Ridge Relay Retrofit,Hank Petrov,Active,01/30/2026,,"520,642.85","250,499.24"
+PRJ-1085,CUST-0050,Summit Fiber Backbone,Mei Haddad,active,2026-03-28,,483083.98,220892.69
+PRJ-1004,  CUST-0054 ,Stonebridge Fiber Backbone,Tariq Petrov,COMPLETED,2025-09-28,2026/04/23,361203.03,195307.40
+PRJ-2001,CUST-9999,Orphan Relay Retrofit,Dana Petrov,Active,2024-02-01,,180000.00,92000.00
+PRJ-2002,CUST-0012,Negative Budget Study,Omar Haddad,On Hold,2024-03-11,,-45000.00,12000.00
+PRJ-2003,CUST-0019,Backwards Schedule Upgrade,Mei Nakamura,Completed,2024-08-01,2024-03-01,310000.00,298000.00
+PRJ-2004,CUST-0025,Legacy Metering Rollout,Sven Kowalski,Archived,2023-05-02,2024-01-30,75000.00,61000.00

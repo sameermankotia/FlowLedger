@@ -1,0 +1,15 @@
+# The dashboard is pinned to a single light theme, because the chart palette
+# is validated against one surface colour (#fcfcfb). See src/theme.py.
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#f9f9f7"
+secondaryBackgroundColor = "#fcfcfb"
+textColor = "#0b0b0b"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true

@@ -1,0 +1,1 @@
+"""ERP data integration pipeline."""

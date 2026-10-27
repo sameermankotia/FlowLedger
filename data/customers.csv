@@ -1,0 +1,65 @@
+customer_id,customer_name,contact_email,contact_phone,industry,country,created_date
+  CUST-0001 ,Harbor Grid Services Group,noor.fontaine@harbor.example.com,(575) 390-4904,Renewables,Germany,12/28/2020
+CUST-0002,Copperline Systems Co-op,linus.okafor@copperline.example.com,(379) 597-5232,Renewables,Germany,2024/05/27
+CUST-0003,  Oakhurst Engineering Corp. ,tariq.petrov@oakhurst.example.com,(644) 591-5655,Oil & Gas,Mexico,2024/07/19
+cust-0004,Harbor Engineering Group,mei.haddad@harbor.example.com,(288) 942-9302,Transportation,Mexico,02/09/2022
+  CUST-0005 ,Cascade Power Inc.,kofi.nakamura@cascade.example.com,(285) 549-9473,Renewables,USA,2020/06/14
+CUST-0006,  Redstone Engineering LLC ,grace.alvarez@redstone.example.com,(513) 562-2190,Engineering Services,Australia,2022-10-02
+CUST-0007,  Copperline Energy Partners ,noor.schmidt@copperline.example.com,(393) 811-3953,Renewables,Germany,2022-06-14
+cust-0008,Summit Industrial Group,rafael.schmidt@summit.example.com,(788) 794-2090,Mining,Canada,2022-11-19
+  CUST-0009 ,Meridian Systems Corp.,lucia.okafor@meridian.example.com,(537) 976-4271,Manufacturing,Australia,2023-04-20
+CUST-0010,Clearwater Resources Group,dana.fontaine@clearwater.example.com,(634) 736-7027,Engineering Services,Canada,2023/07/30
+CUST-0011,Riverbend Engineering LLC,tariq.petrov@riverbend.example.com,(367) 666-6047,Mining,Germany,21-Jun-2021
+CUST-0012,Westfield Engineering Partners,olu.haddad@westfield.example.com,(646) 287-7225,Mining,Brazil,12/03/2024
+  cust-0013 ,Harbor Transmission Partners,omar.schmidt@harbor.example.com,(421) 726-1169,Oil & Gas,Mexico,11/17/2021
+cust-0014,Granite Industrial Inc.,hank.kowalski@granite.example.com,(464) 511-5375,Renewables,Germany,2019/12/17
+CUST-0015,Timberlake Utilities Partners,linus.hopper@timberlake.example.com,(410) 781-6944,Engineering Services,Brazil,2021-07-30
+cust-0016,Ironwood Power Corp.,noor.nakamura@ironwood.example.com,(699) 469-1717,Utilities,Mexico,2023/04/16
+CUST-0017,Harbor Utilities Corp.,omar.petrov@harbor.example.com,(281) 214-8768,Renewables,Germany,27-Feb-2024
+cust-0018,Ironwood Engineering Co-op,noor.haddad@ironwood.example.com,(875) 920-2499,Engineering Services,Brazil,2019/10/22
+  CUST-0019 ,Birchwood Energy Group,rafael.lovelace@birchwood.example.com,(322) 672-1851,Utilities,Mexico,2024-10-30
+CUST-0020,  Riverbend Power Partners ,kofi.fontaine@riverbend.example.com,(705) 380-3166,Oil & Gas,Mexico,2022/07/11
+CUST-0021,Riverbend Power Co-op,dana.haddad@riverbend.example.com,(207) 360-2783,Engineering Services,Germany,28-Nov-2020
+cust-0022,Cascade Resources Co-op,kofi.alvarez@cascade.example.com,(552) 520-4696,Renewables,Canada,2020/09/03
+CUST-0023,Redstone Industrial Inc.,ada.haddad@redstone.example.com,(846) 835-3042,Transportation,Canada,2025-03-04
+CUST-0024,Meridian Energy Inc.,dana.schmidt@meridian.example.com,(944) 403-8793,Oil & Gas,Canada,2022/06/06
+CUST-0025,Fairmont Industrial LLC,hank.lovelace@fairmont.example.com,(445) 886-1391,Transportation,Mexico,2022/09/25
+CUST-0026,Copperline Utilities Partners,lucia.okafor@copperline.example.com,(827) 650-6127,Engineering Services,Brazil,2019-11-04
+CUST-0027,Blue Ridge Grid Services Partners,omar.lovelace@blue.example.com,(410) 606-2085,Manufacturing,USA,02/15/2022
+  cust-0028 ,Summit Utilities Corp.,linus.fontaine@summit.example.com,(678) 878-9432,Renewables,Canada,26-Jan-2023
+CUST-0029,Ironwood Systems Group,linus.schmidt@ironwood.example.com,(551) 551-8020,Renewables,Brazil,09/06/2021
+CUST-0030,Lakeshore Transmission Co-op,hank.haddad@lakeshore.example.com,(539) 814-8040,Oil & Gas,Canada,2024-03-27
+cust-0031,Stonebridge Energy Inc.,rafael.okafor@stonebridge.example.com,(313) 407-9507,Renewables,Brazil,09-Nov-2019
+  CUST-0032 ,Granite Grid Services Group,linus.ibrahim@granite.example.com,(936) 782-1648,Public Sector,Australia,2023/09/07
+CUST-0033,Riverbend Energy Co-op,kofi.fontaine@riverbend.example.com,(521) 452-3550,Utilities,Germany,05/28/2023
+  cust-0034 ,Blue Ridge Utilities Corp.,olu.fontaine@blue.example.com,(654) 731-3405,Mining,Australia,02/19/2020
+CUST-0035,Blue Ridge Systems Partners,priya.alvarez@blue.example.com,(213) 589-7416,Manufacturing,Germany,18-May-2023
+CUST-0036,Oakhurst Resources Partners,dana.petrov@oakhurst.example.com,(433) 737-3390,Utilities,Brazil,23-Oct-2022
+CUST-0037,Copperline Systems Group,grace.nakamura@copperline.example.com,(911) 577-2774,Engineering Services,USA,27-Jul-2020
+cust-0038,Birchwood Power LLC,priya.lindqvist@birchwood.example.com,(640) 857-2633,Oil & Gas,USA,2025-08-15
+CUST-0039,Copperline Energy LLC,priya.schmidt@copperline.example.com,(743) 899-7298,Engineering Services,Canada,30-Jun-2025
+CUST-0040,Summit Power Partners,sven.lovelace@summit.example.com,(379) 470-2601,Mining,Australia,02-Sep-2024
+CUST-0041,Summit Power Corp.,sven.fontaine@summit.example.com,(791) 930-4831,Utilities,Australia,2024-05-08
+CUST-0042,Copperline Industrial Corp.,priya.okafor@copperline.example.com,(473) 852-4642,Public Sector,USA,2024-01-17
+cust-0043,Timberlake Transmission Corp.,kofi.fontaine@timberlake.example.com,(777) 525-6537,Manufacturing,Canada,2023-12-29
+CUST-0044,Ironwood Infrastructure Co-op,lucia.haddad@ironwood.example.com,(254) 475-6848,Oil & Gas,Australia,2021/08/26
+CUST-0045,Birchwood Transmission Inc.,omar.nakamura@birchwood.example.com,(420) 631-8269,Public Sector,Australia,02-May-2021
+CUST-0046,Summit Engineering Corp.,mei.haddad@summit.example.com,(849) 778-7574,Renewables,Germany,2023-02-10
+CUST-0047,Fairmont Utilities Group,kofi.haddad@fairmont.example.com,(660) 879-7980,Transportation,Germany,2022-12-25
+cust-0048,Riverbend Industrial LLC,rafael.nakamura@riverbend.example.com,(579) 997-6132,Renewables,USA,07/09/2020
+cust-0049,Clearwater Energy LLC,noor.lindqvist@clearwater.example.com,(808) 998-1879,Manufacturing,USA,08/08/2023
+  CUST-0050 ,Meridian Utilities Inc.,grace.alvarez@meridian.example.com,(409) 328-6108,Mining,Australia,08-Jul-2025
+CUST-0051,Granite Infrastructure Corp.,noor.nakamura@granite.example.com,(461) 650-4869,Renewables,Germany,23-Jul-2024
+CUST-0052,Stonebridge Systems Corp.,dana.kowalski@stonebridge.example.com,(286) 967-3911,Renewables,Canada,2022-06-17
+CUST-0053,Oakhurst Grid Services Group,omar.schmidt@oakhurst.example.com,(498) 834-7145,Renewables,Mexico,2020/09/11
+CUST-0054,Harbor Power Corp.,olu.nakamura@harbor.example.com,(514) 475-6285,Utilities,Canada,2025/02/14
+cust-0055,Westfield Power Partners,noor.nakamura@westfield.example.com,(206) 374-4197,Renewables,Australia,2024-07-10
+  cust-0056 ,Stonebridge Engineering Co-op,lucia.lindqvist@stonebridge.example.com,(732) 850-5978,Public Sector,USA,2021-09-14
+CUST-0057,Cascade Utilities LLC,hank.fontaine@cascade.example.com,(876) 871-2248,Mining,Mexico,2019/09/25
+CUST-0058,Blue Ridge Transmission Inc.,noor.okafor@blue.example.com,(465) 931-8326,Utilities,USA,23-Jun-2022
+CUST-0059,Redstone Grid Services Inc.,rafael.kowalski@redstone.example.com,(315) 576-6152,Engineering Services,Canada,2025-04-01
+CUST-0060,  Ironwood Energy Inc. ,grace.okafor@ironwood.example.com,(245) 798-2455,Transportation,Canada,2025-01-18
+CUST-0007,Cascade Power Incorporated,noor.schmidt@copperline.example.com,(393) 811-3953,Renewables,Germany,2022-06-14
+,Unknown Holdings LLC,ops@unknown.example.com,(555) 010-2000,Manufacturing,USA,2023-04-02
+CUST-0901,   ,billing@nameless.example.com,(555) 010-2001,Utilities,USA,2022-09-19
+CUST-0902,Baddate Engineering Group,ap@baddate.example.com,(555) 010-2002,Engineering Services,Canada,2024-13-45
