@@ -178,23 +178,6 @@ Constraints that matter for reporting correctness:
 `project_id` on invoices is nullable by design: not every invoice belongs to a
 project. The profitability report uses a `LEFT JOIN` accordingly.
 
-## A note on "revenue"
 
-The reports sum invoice amounts and label the result `total_invoiced`, not
-`revenue`. In a real accounting system recognized revenue depends on contract
-terms and percent-complete rules that these three tables do not carry.
-Calling an invoice total "revenue" would be the kind of quiet error that
-reporting pipelines are supposed to prevent.
 
-## Extending it
 
-The shape generalizes past CSV files:
-
-- **A different source** — add a reader to `src/extract.py` that returns a
-  DataFrame of strings with a `_source_row` column. A database or API source
-  changes nothing downstream.
-- **A new rule** — add a `(rule, message)` tuple to the relevant function in
-  `src/validate.py`. The rejection plumbing, counts and reporting pick it up
-  automatically.
-- **Incremental loads** — the upsert is already key-based, so filtering the
-  extract by a watermark is the only change needed.
