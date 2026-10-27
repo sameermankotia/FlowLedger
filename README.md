@@ -2,6 +2,14 @@
 
 **ERP data integration & reporting pipeline**
 
+[**Live report snapshot →**](https://sameermankotia.github.io/FlowLedger/)
+&nbsp;·&nbsp;
+[Architecture](docs/architecture.md)
+&nbsp;·&nbsp;
+[Sample SQL output](docs/sample_reports.md)
+
+[![tests](https://github.com/sameermankotia/FlowLedger/actions/workflows/tests.yml/badge.svg)](https://github.com/sameermankotia/FlowLedger/actions/workflows/tests.yml)
+
 A Python and PostgreSQL ETL project that simulates integrating customer,
 project and invoice data across two enterprise business systems — a CRM that
 owns customers and an ERP that owns projects and invoices — then reports on
@@ -75,7 +83,7 @@ docker compose up -d
 .venv/bin/python -m pytest
 ```
 
-`make help` lists the rest (`dry-run`, `reset`, `data`, `down`, `clean`).
+`make help` lists the rest (`dry-run`, `reset`, `data`, `site`, `down`, `clean`).
 
 ## What it does
 
@@ -177,6 +185,29 @@ contract and percent-complete rules that these three tables do not carry, so
 labelling an invoice total as revenue would be exactly the sort of quiet error
 this pipeline exists to catch.
 
+## Live demo
+
+**<https://sameermankotia.github.io/FlowLedger/>**
+
+GitHub Pages serves static files only, so the Streamlit app itself cannot run
+there. What is published is a **static snapshot**: the same reports and the
+same chart specifications, rendered to one self-contained HTML page by
+[`scripts/build_site.py`](scripts/build_site.py) and committed to `docs/`. The
+page says so at the top — it is not querying a live database, and the figures
+are from the synthetic extracts in `data/`.
+
+```bash
+make site                # rebuild docs/index.html from the current database
+```
+
+The charts are the same Altair objects the dashboard uses, serialised to
+Vega-Lite and embedded, so the published page and the dashboard cannot drift
+apart. Tests in [`tests/test_site.py`](tests/test_site.py) check that every
+chart carries its data, that the Vega-Lite version in the specs matches the
+pinned CDN build, and that the page leaks no database credentials.
+
+For the real, interactive thing, run it locally:
+
 ## Dashboard
 
 ```bash
@@ -240,7 +271,7 @@ Full details in [`sql/schema.sql`](sql/schema.sql) and
 
 ```
 $ make test
-162 passed in 3.56s
+182 passed in 4.27s
 ```
 
 - [`tests/test_transform.py`](tests/test_transform.py) — 56 tests on the
@@ -257,6 +288,10 @@ $ make test
   ordinal ramp in order, direct labels, tooltips on every chart), and the full
   page runs under `AppTest` with no exception, with its headline figure checked
   against the database.
+- [`tests/test_site.py`](tests/test_site.py) — 11 tests on the published
+  snapshot: the template is fully substituted, every chart div has a matching
+  spec that carries data, all three Vega scripts are pinned to exact versions
+  that match the emitted schema, and the page contains no credentials.
 - [`tests/test_pipeline.py`](tests/test_pipeline.py) — 40 tests against a real
   PostgreSQL instance: the full run, normalization on the way in, audit and
   rejection rows, idempotency over three runs, every database constraint
@@ -272,7 +307,9 @@ cleanly if PostgreSQL is not running, so `pytest` is useful before
 
 ```
 ├── data/                     synthetic extracts + the list of planted bad records
-├── scripts/generate_data.py  regenerates the extracts (seeded, date-anchored)
+├── scripts/
+│   ├── generate_data.py      regenerates the extracts (seeded, date-anchored)
+│   └── build_site.py         renders the static GitHub Pages snapshot
 ├── src/
 │   ├── config.py             settings and the SQLAlchemy engine
 │   ├── extract.py            read CSVs as raw strings
@@ -287,9 +324,11 @@ cleanly if PostgreSQL is not running, so `pytest` is useful before
 │   ├── schema.sql            tables, constraints, indexes (safe to re-run)
 │   └── reports.sql           the eleven reports
 ├── tests/
-├── docs/
+├── docs/                     also the GitHub Pages root
+│   ├── index.html            generated static snapshot (make site)
 │   ├── architecture.md       data flow, design decisions, schema
 │   └── sample_reports.md     generated output from the shipped data
+├── .github/workflows/        CI: pipeline, idempotency check, tests, site build
 ├── docker-compose.yml
 ├── Makefile
 └── requirements.txt
@@ -343,6 +382,7 @@ python -m src.reports --format md           # markdown tables
 python -m src.reports --format csv --report overdue_invoices > overdue.csv
 
 streamlit run src/dashboard.py              # dashboard on :8501
+python scripts/build_site.py                # rebuild docs/index.html
 
 python scripts/generate_data.py [--anchor-date YYYY-MM-DD]
 ```
